@@ -10,9 +10,9 @@
 ## Algorithm for checking reservations
 - Checking is available space for entered reservation in every room in hotel.
 - If there is available space put reservation in first available room and send user information that is reservation is accepted.
-- If there is not availble space try to move some reservation form  one room for that period to other room in hotel.
-- If reservation can be moved to another room in hotel, move reservation to new room and put temporary reservation in room and send user information that is reservation is accepted..
-- If reservation can not be moved to another room in hotel nd send user information that is reservation is decline.
+- If there is not available space try to move some reservation form  one room for that period to other room in hotel.
+- If reservation can be moved to another room in hotel, move reservation to new room and put temporary reservation in room and send user information that is reservation is accepted.
+- If reservation can not be moved to another room in hotel send user information that is reservation is decline.
 
 ## Depedency -> libs
 - .NET Framework, Version=v4.7.2
